@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+  <defs>
+    <linearGradient id="ava-6-a" x1="50%" x2="50%" y1="0%" y2="99.739%">
+      <stop offset="0%" stop-color="#FFF" stop-opacity=".4"/>
+      <stop offset="100%" stop-color="#FFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <circle cx="18" cy="18" r="18" fill="#1DBD24"/>
+    <circle cx="18" cy="18" r="18" fill="url(#ava-6-a)"/>
+    <polygon fill="#FFF" fill-rule="nonzero" points="7.847 1.657 7.513 0 0 0 0 14.087 1.67 14.087 1.67 8.286 6.344 8.286 6.678 9.944 12.522 9.944 12.522 1.657" transform="translate(11.74 10.957)"/>
+    <rect width="36" height="36"/>
+  </g>
+</svg>
