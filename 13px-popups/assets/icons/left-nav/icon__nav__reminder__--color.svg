@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <path id="icon__nav__reminder__--color-a" d="M7.79997715,19.5 C6.72261317,19.5 5.8499543,18.6273971 5.85,17.55 L9.75,17.55 C9.75,18.6273971 8.87734112,19.5 7.79997715,19.5 Z M14.2187798,13.2954545 L16.25,15.2651669 L16.25,16.25 L0,16.25 L0,15.2651669 L2.03126785,13.2954545 L2.03126785,8.3712429 C2.03126785,5.34283381 3.69181635,2.81669744 6.60158482,2.14698509 L6.60158482,1.47727273 C6.60158482,0.659833097 7.28203836,0 8.1250238,0 C8.96800925,0 9.64846279,0.659833097 9.64846279,1.47727273 L9.64846279,2.14693892 C12.5582313,2.81665128 14.2187798,5.34278764 14.2187798,8.37119673 L14.2187798,13.2954545 Z"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <rect width="24" height="24"/>
+    <g transform="translate(4 2)">
+      <mask id="icon__nav__reminder__--color-b" fill="#fff">
+        <use xlink:href="#icon__nav__reminder__--color-a"/>
+      </mask>
+      <use fill="#FFF" fill-rule="nonzero" xlink:href="#icon__nav__reminder__--color-a"/>
+      <g mask="url(#icon__nav__reminder__--color-b)">
+        <rect width="80" height="80" fill="#34AC4D" transform="translate(-32 -33)"/>
+      </g>
+    </g>
+  </g>
+</svg>
