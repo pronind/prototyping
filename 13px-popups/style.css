@@ -9,6 +9,7 @@ body {
 	background-color: var(--gray-0);
 	color: var(--gray-80);
 	line-height: 19.6px;
+	-webkit-font-smoothing: antialiased;
 }
 
 div{
