@@ -13,6 +13,21 @@ body {
 div{
 /*	background-color: hsla(359,55%,64%,0.40);*/
 }
+
+a.text{
+	color: hsla(226,87%,69%,1.00);
+	text-decoration: none;
+	display: inline-block;
+	
+	line-height: 1.3em;
+}
+
+a.text:hover{
+/*	color: hsla(226,100%,55%,1.00);*/
+	text-decoration: underline;
+/*	border-bottom: 1px solid hsla(226,87%,69%,0.3);*/
+	
+}
 .left-nav {
 	position: fixed;
 	width: 80px;
@@ -30,6 +45,9 @@ div{
 	width: calc(100% - 80px);
 	padding: 12px 16px 24px 16px;
 	box-sizing: border-box;
+	   display: flex;
+   flex-direction: column;
+   height: 100vh;
 }
 .left-nav-inbox {
 	height: 64px;
@@ -134,7 +152,17 @@ div{
 .nav-icon-alarm, 
 .nav-icon-visitors, 
 .nav-icon-settings, 
-.nav-icon-switcher {
+.nav-icon-switcher,
+.nav-icon-inbox-selected, 
+.nav-icon-my-selected, 
+.nav-icon-contacts-selected, 
+.nav-icon-call-selected, 
+.nav-icon-team-selected, 
+.nav-icon-alarm-selected, 
+.nav-icon-visitors-selected, 
+.nav-icon-settings-selected, 
+.nav-icon-switcher-selected
+{
 	margin-top: 14px;
 	display: inline-block;
 	width: 24px;
@@ -158,14 +186,14 @@ div{
 	font-size: 11px;
 }
 .left-nav:hover>.left-nav-top>a>.left-nav-inbox>.nav-text-inbox, 
-.left-nav:hover>.left-nav-top>.left-nav-my>.nav-text-my, 
-.left-nav:hover>.left-nav-top>.left-nav-contacts>.nav-text-contacts, 
-.left-nav:hover>.left-nav-bottom>.left-nav-call>.nav-text-call, 
-.left-nav:hover>.left-nav-bottom>.left-nav-team>.nav-text-team, 
-.left-nav:hover>.left-nav-bottom>.left-nav-alarm>.nav-text-alarm, 
-.left-nav:hover>.left-nav-bottom>.left-nav-visitors>.nav-text-visitors, 
-.left-nav:hover>.left-nav-bottom>.left-nav-settings>.nav-text-settings, 
-.left-nav:hover>.left-nav-bottom>.left-nav-switcher>.nav-text-switcher {
+.left-nav:hover>.left-nav-top>a>.left-nav-my>.nav-text-my, 
+.left-nav:hover>.left-nav-top>a>.left-nav-contacts>.nav-text-contacts, 
+.left-nav:hover>.left-nav-bottom>a>.left-nav-call>.nav-text-call, 
+.left-nav:hover>.left-nav-bottom>a>.left-nav-team>.nav-text-team, 
+.left-nav:hover>.left-nav-bottom>a>.left-nav-alarm>.nav-text-alarm, 
+.left-nav:hover>.left-nav-bottom>a>.left-nav-visitors>.nav-text-visitors, 
+.left-nav:hover>.left-nav-bottom>a>.left-nav-settings>.nav-text-settings, 
+.left-nav:hover>.left-nav-bottom>a>.left-nav-switcher>.nav-text-switcher {
 	visibility: visible;
 }
 .clearfix::after {
@@ -174,7 +202,7 @@ div{
 	clear: both;
 }
 .top-search-icon {
-	background-image:  url(assets/icons/search.svg);
+	background-image:  url(../assets/icons/search.svg);
 	background-position: -3px 0px;
 	height: 24px;
 	width: 24px;
@@ -183,7 +211,7 @@ div{
 	display: flex;
 	flex-direction: row;
 /*	margin: 0px 12px 24px 0px;*/
-	padding: 0px 12px 12px 12px;
+	padding: 0px 12px 16px 12px;
 	justify-content: space-between
 }
 .top-search-iconblock {
@@ -194,7 +222,7 @@ div{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	padding: 0 12px 24px 8px;
+	padding: 0 12px 12px 12px;
 	height: 24px;
 }
 .top-headers>div:not(:first-child) {
@@ -207,7 +235,7 @@ div{
 	margin: 0 0 0 0;
 	justify-content: space-between;
 	height: 52px;
-	padding: 8px 12px 8px 12px;
+	padding: 12px;
 }
 .user-list:hover {
 	background-color: var(--gray-10);
@@ -261,8 +289,8 @@ div{
 }
 .user-ava-pic {
 	margin-top: 2px;
-	height: 28px;
-	width: 28px;
+	height: 36px;
+	width: 36px;
 /*	background-color: cornflowerblue;*/
 /*	border-radius: 18px;*/
 	display: flex;
@@ -273,10 +301,10 @@ div{
 }
 .user-ava {
 	position: relative;
-	width: 46px;
+	width: 56px;
 	height: 52px;
 	text-align: center;
-	min-width: 46px;
+	min-width: 52px;
 }
 .user-ava-counter {
 	border-radius: 12px;
@@ -289,8 +317,8 @@ div{
 	justify-content: center;
 	align-items: center;
 	position: absolute;
-	left: 18px;
-	top: 18px;
+	left: 22px;
+	top: 20px;
 	color: white;
 	font-size: 11px;
 	border: 2px solid var(--gray-0);
@@ -349,60 +377,92 @@ div{
 /* MENU ICONS */
 
 .nav-icon-inbox {
-	background-image: url(assets/icons/left-nav/icon__nav__inbox__--solid-grey.svg)
+	background-image: url(../assets/icons/left-nav/icon__nav__inbox__--solid-grey.svg)
 }
 .left-nav-inbox:hover>.nav-icon-inbox {
-	background-image: url(assets/icons/left-nav/icon__nav__inbox__--solid-color.svg)
+	background-image: url(../assets/icons/left-nav/icon__nav__inbox__--solid-color.svg)
 }
+.nav-icon-inbox-selected {
+	background-image: url(../assets/icons/left-nav/icon__nav__inbox__--solid-color.svg)
+}
+
 
 .nav-icon-my {
-	background-image: url(assets/icons/left-nav/icon__nav__my__--solid-grey.svg)
+	background-image: url(../assets/icons/left-nav/icon__nav__my__--solid-grey.svg)
 }
 .left-nav-my:hover>.nav-icon-my {
-	background-image: url(assets/icons/left-nav/icon__nav__my__--solid-color.svg)
+	background-image: url(../assets/icons/left-nav/icon__nav__my__--solid-color.svg)
 }
+.nav-icon-my-selected {
+	background-image: url(../assets/icons/left-nav/icon__nav__my__--solid-color.svg)
+}
+
 
 .nav-icon-contacts {
-	background-image: url(assets/icons/left-nav/icon__nav__contacts__--solid-grey.svg)
+	background-image: url(../assets/icons/left-nav/icon__nav__contacts__--solid-grey.svg)
 }
 .left-nav-contacts:hover>.nav-icon-contacts {
-	background-image: url(assets/icons/left-nav/icon__nav__contacts__--solid-color.svg)
+	background-image: url(../assets/icons/left-nav/icon__nav__contacts__--solid-color.svg)
 }
+.nav-icon-contacts-selected {
+	background-image: url(../assets/icons/left-nav/icon__nav__contacts__--solid-color.svg)
+}
+
 
 .nav-icon-call {
-	background-image: url(assets/icons/left-nav/icon__nav__call__--solid-grey.svg)
+	background-image: url(../assets/icons/left-nav/icon__nav__call__--solid-grey.svg)
 }
 .left-nav-call:hover>.nav-icon-call {
-	background-image: url(assets/icons/left-nav/icon__nav__call__--solid-color.svg)
+	background-image: url(../assets/icons/left-nav/icon__nav__call__--solid-color.svg)
 }
+.nav-icon-call-selected {
+	background-image: url(../assets/icons/left-nav/icon__nav__call__--solid-color.svg)
+}
+
 
 .nav-icon-team {
-	background-image: url(assets/icons/left-nav/icon__nav__team__--solid-grey.svg)
+	background-image: url(../assets/icons/left-nav/icon__nav__team__--solid-grey.svg)
 }
 .left-nav-team:hover>.nav-icon-team {
-	background-image: url(assets/icons/left-nav/icon__nav__team__--solid-color.svg)
+	background-image: url(../assets/icons/left-nav/icon__nav__team__--solid-color.svg)
 }
+.nav-icon-team-selected {
+	background-image: url(../assets/icons/left-nav/icon__nav__team__--solid-color.svg)
+}
+
 
 .nav-icon-alarm {
-	background-image: url(assets/icons/left-nav/icon__nav__reminder__--solid-grey.svg)
+	background-image: url(../assets/icons/left-nav/icon__nav__reminder__--solid-grey.svg)
 }
 .left-nav-alarm:hover>.nav-icon-alarm {
-	background-image: url(assets/icons/left-nav/icon__nav__reminder__--color.svg)
+	background-image: url(../assets/icons/left-nav/icon__nav__reminder__--color.svg)
 }
+.nav-icon-alarm-selected {
+	background-image: url(../assets/icons/left-nav/icon__nav__reminder__--color.svg)
+}
+
 
 .nav-icon-visitors {
-	background-image: url(assets/icons/left-nav/icon__nav__visitors__--solid-grey.svg)
+	background-image: url(../assets/icons/left-nav/icon__nav__visitors__--solid-grey.svg)
 }
 .left-nav-visitors:hover>.nav-icon-visitors {
-	background-image: url(assets/icons/left-nav/icon__nav__visitors__--solid-color.svg)
+	background-image: url(../assets/icons/left-nav/icon__nav__visitors__--solid-color.svg)
+}
+.nav-icon-visitors-selected {
+	background-image: url(../assets/icons/left-nav/icon__nav__visitors__--solid-color.svg)
 }
 
+
 .nav-icon-settings {
-	background-image: url(assets/icons/left-nav/icon__nav__settings__--solid-grey.svg)
+	background-image: url(../assets/icons/left-nav/icon__nav__settings__--solid-grey.svg)
 }
 .left-nav-settings:hover>.nav-icon-settings {
-	background-image: url(assets/icons/left-nav/icon__nav__settings__--solid-color.svg)
+	background-image: url(../assets/icons/left-nav/icon__nav__settings__--solid-color.svg)
 }
+.nav-icon-settings-selected {
+	background-image: url(../assets/icons/left-nav/icon__nav__settings__--solid-color.svg)
+}
+
 /* END MENU ------------------ */
 
 
@@ -466,14 +526,23 @@ div{
 .user-ava-name-text {
 	display: flex;
 	justify-content: space-between;
-	width: 25%;
-	min-width: 240px;
+	width: 20%;
+	min-width: 200px;
 }
 
-.top-filters {
-		display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	padding: 0 12px 12px 8px;
-	height: 22px;
+.top-search-text {
+	color: var(--gray-35);
+	display: flex;
+	align-items: center;
+	margin-top: 3px;
+}
+
+.user-empty {
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	flex-direction: column;
+
 }
