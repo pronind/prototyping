@@ -1,0 +1,83 @@
+.top-headers-head-my {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--gray-100);
+    width: 30%;
+    min-width: 200px;
+    max-width: 400px;
+    float: left;
+}
+
+.top-headers-date-my {
+    font-size: 11px;
+    color: var(--gray-35);
+    width: 50px;
+     text-align: right;
+     margin-top: 2px;
+		left:30%;
+    position: absolute;
+}
+
+.top-headers-header3-my {
+    width: 15%;
+    float: left;
+    margin-top: 2px;
+    text-align: right;
+}
+
+.top-headers-header4-my {
+    width: 15%;
+    	left:40%;
+    position: absolute;
+    margin-top: 2px;
+}
+
+.top-headers-header5-my {
+    width: 15%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.top-headers__last-headers {
+    width: 20%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.user-ava-name-text-my {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    min-width: 200px;
+    max-width: 400px;
+    float: left;
+}
+
+.user-date-my {
+    width: 50px;
+    font-size: 11px;
+    color: var(--gray-40);
+    margin-top: 2px;
+    margin-right: 32px;
+    text-align: right;
+    	left:30%;
+    position: absolute;
+}
+
+.user-list__table3-my {
+    width: 15%;
+    text-align: right;
+    float: left;
+}
+
+.user-list__table4-my {
+    width: 15%;
+	left:40%;
+    position: absolute;
+}
+
+.user-list__table5-my {
+    width: 15%;
+}

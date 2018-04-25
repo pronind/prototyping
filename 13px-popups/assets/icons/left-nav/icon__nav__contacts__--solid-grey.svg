@@ -1,9 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
-  <defs>
-    <path id="icon__nav__contacts__--solid-grey-a" d="M5,2 L19,2 C20.1045695,2 21,2.8954305 21,4 L21,14 C21,15.1045695 20.1045695,16 19,16 L5,16 C3.8954305,16 3,15.1045695 3,14 L3,4 C3,2.8954305 3.8954305,2 5,2 Z M12,9 C13.1045695,9 14,8.1045695 14,7 C14,5.8954305 13.1045695,5 12,5 C10.8954305,5 10,5.8954305 10,7 C10,8.1045695 10.8954305,9 12,9 Z M8.74104778,12.9812012 L15.2247869,12.9812012 C14.8272191,10.3270671 13.7487106,9 11.9892615,9 C10.2298124,9 9.1470745,10.3270671 8.74104778,12.9812012 Z M5,17 L19,17 C19,18.1045695 18.1045695,19 17,19 L7,19 C5.8954305,19 5,18.1045695 5,17 Z M7,20 L17,20 C17,21.1045695 16.1045695,22 15,22 L9,22 C7.8954305,22 7,21.1045695 7,20 Z"/>
-  </defs>
-  <g fill="none" fill-rule="evenodd">
-    <rect width="24" height="24"/>
-    <use fill="#9DA0AA" xlink:href="#icon__nav__contacts__--solid-grey-a"/>
-  </g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>icon__nav__contacts__--solid-grey</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M5,2 L19,2 C20.1045695,2 21,2.8954305 21,4 L21,14 C21,15.1045695 20.1045695,16 19,16 L5,16 C3.8954305,16 3,15.1045695 3,14 L3,4 C3,2.8954305 3.8954305,2 5,2 Z M12,9 C13.1045695,9 14,8.1045695 14,7 C14,5.8954305 13.1045695,5 12,5 C10.8954305,5 10,5.8954305 10,7 C10,8.1045695 10.8954305,9 12,9 Z M8.74104778,12.9812012 L15.2247869,12.9812012 C14.8272191,10.3270671 13.7487106,9 11.9892615,9 C10.2298124,9 9.1470745,10.3270671 8.74104778,12.9812012 Z M5,17 L19,17 C19,18.1045695 18.1045695,19 17,19 L7,19 C5.8954305,19 5,18.1045695 5,17 Z M7,20 L17,20 C17,21.1045695 16.1045695,22 15,22 L9,22 C7.8954305,22 7,21.1045695 7,20 Z" id="path-1"></path>
+    </defs>
+    <g id="🔷/styleguide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="styleguide" transform="translate(-176.000000, -2195.000000)">
+            <g id="Group-3" transform="translate(112.000000, 1947.000000)">
+                <g id="icon/nav/contacts/--solid-grey" transform="translate(64.000000, 248.000000)">
+                    <g>
+                        <g id="bg/spec">
+                            <rect id="bg" x="0" y="0" width="24" height="24"></rect>
+                        </g>
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#9DA0AA" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
 </svg>

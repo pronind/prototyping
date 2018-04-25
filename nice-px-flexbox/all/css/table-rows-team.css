@@ -1,0 +1,11 @@
+.top-headers {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 0 12px 12px 12px;
+	height: 24px;
+}
+.top-headers>div:not(:first-child) {
+	font-size: 11px;
+	color: var(--gray-35);
+}

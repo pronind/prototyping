@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+  <defs>
+    <linearGradient id="ava-14-a" x1="50%" x2="50%" y1="0%" y2="99.739%">
+      <stop offset="0%" stop-color="#FFF" stop-opacity=".4"/>
+      <stop offset="100%" stop-color="#FFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <circle cx="18" cy="18" r="18" fill="#007AFF"/>
+    <circle cx="18" cy="18" r="18" fill="url(#ava-14-a)"/>
+    <path fill="#FFF" fill-rule="nonzero" d="M17.2173913,13.1478261 L17.2173913,11.2695652 L9.96796339,6.57391304 L9.96796339,1.40869565 C9.96796339,0.630694526 9.35939849,0 8.60869565,0 C7.85799281,0 7.24942792,0.630694526 7.24942792,1.40869565 L7.24942792,6.57391304 L0,11.2695652 L0,13.1478261 L7.24942792,10.8 L7.24942792,15.9652174 L5.43707094,17.373913 L5.43707094,18.7826087 L8.60869565,17.8434783 L11.7803204,18.7826087 L11.7803204,17.373913 L9.96796339,15.9652174 L9.96796339,10.8 L17.2173913,13.1478261 Z" transform="translate(9.391 8.609)"/>
+    <rect width="36" height="36"/>
+  </g>
+</svg>

@@ -1,0 +1,154 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+@import url(colors.css);
+@import url(left-nav.css);
+@import url(top-search.css);
+@import url(table-rows-all.css);
+@import url(table-rows-inbox.css);
+@import url(table-rows-my.css);
+@import url(table-rows-archive.css);
+@import url(table-rows-team.css);
+@import url(table-rows-visitors.css);
+/*
+@import url(table-rows-archive-left.css);
+@import url(table-rows-my-left.css);
+*/
+body {
+    font-family: Roboto, Segoe UI, Tahoma, Roboto;
+    font-size: 13px;
+    background-color: var(--gray-0);
+    color: var(--gray-80);
+    line-height: 19.6px;
+    -webkit-font-smoothing: antialiased;
+}
+
+div {
+    /*	background-color: hsla(359,55%,64%,0.40);*/
+}
+
+a.text {
+    color: hsla(226, 87%, 69%, 1.00);
+    text-decoration: none;
+    display: inline-block;
+    line-height: 1.3em;
+}
+
+a.text:hover {
+    /*	color: hsla(226,100%,55%,1.00);*/
+    text-decoration: underline;
+    /*	border-bottom: 1px solid hsla(226,87%,69%,0.3);*/
+}
+
+.content {
+    position: absolute;
+    left: 80px;
+    width: calc(100% - 80px);
+    padding: 12px 16px 24px 16px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.user-list {
+    width: 100%;
+    margin: 0 0 0 0;
+    height: 52px;
+    padding: 12px;
+}
+
+.user-list:hover {
+    background-color: var(--gray-10);
+}
+
+.user-name-text {
+    flex-grow: 2;
+}
+
+.user-ava-pic {
+    margin-top: 2px;
+    height: 36px;
+    width: 36px;
+    /*	background-color: cornflowerblue;*/
+    /*	border-radius: 18px;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-ava {
+    position: relative;
+    width: 56px;
+    height: 52px;
+    text-align: center;
+    min-width: 56px;
+}
+
+.user-ava-counter {
+    border-radius: 12px;
+    background-color: red;
+    min-width: 18px;
+    height: 18px;
+    display: inline-flex;
+    padding-left: 0px;
+    padding-right: 0px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 22px;
+    top: 20px;
+    color: white;
+    font-size: 11px;
+    border: 2px solid var(--gray-0);
+}
+
+.user-name {
+    font-size: 14px;
+    color: var(--gray-90);
+    text-overflow: ellipsis;
+    /*	margin-top: 2px;*/
+}
+
+
+/* vis-hid, vis-none for switching states in prototype */
+
+.vis-hid {
+    visibility: hidden
+}
+
+.vis-none {
+    display: none;
+}
+
+
+/* END MENU ------------------ */
+
+.user-list:hover>.user-ava-name-text-date>.user-ava>.user-ava-counter {
+    border: 2px solid var(--gray-10);
+}
+
+.user-text-phone {
+    display: inline-block;
+}
+
+.user-table-small-text {
+    font-size: 11px;
+    color: var(--gray-50);
+}
+
+.user-empty {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="230px" height="123px" viewBox="0 0 230 123" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>visual/empty/team</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="123.926902" cy="53.4065864" r="12"></circle>
+        <path d="M105.119315,94.4065864 C104.992512,93.4267774 104.926902,92.4251504 104.926902,91.4065864 C104.926902,79.8086066 113.433492,70.4065864 123.926902,70.4065864 C134.420313,70.4065864 142.926902,79.8086066 142.926902,91.4065864 C142.926902,92.4251504 142.861293,93.4267774 142.73449,94.4065864 L105.119315,94.4065864 Z" id="path-2"></path>
+        <circle id="path-3" cx="12" cy="12" r="12"></circle>
+    </defs>
+    <g id="🔷/styleguide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="visuals" transform="translate(-534.000000, -302.000000)">
+            <g id="visual/empty/team" transform="translate(533.000000, 299.000000)">
+                <g>
+                    <path d="M203.18104,103.962095 C280.155316,104.860543 165.162889,75.5603989 182.744635,57.8399412 C200.32638,40.1194834 186.888045,15.2892184 170.185387,9.65089098 C153.482729,4.01256352 133.961273,38.1907789 105.83048,26.914124 C77.6996875,15.6374691 48.0296617,-8.40830443 18.243125,7.87741249 C-2.08315427,18.9907566 -4.29442516,36.8987784 16.9848984,59.9134746 C38.2642219,82.9281708 0.142148689,104.418647 43.1355996,105.169101 C92.6362973,106.033138 93.2583601,130.875217 124.808967,124.597456 C156.359574,118.319696 171.101009,103.587655 203.18104,103.962095 Z" id="Path-2" fill="#F3F4F5" transform="translate(115.992418, 64.000000) scale(1, -1) rotate(179.000000) translate(-115.992418, -64.000000) "></path>
+                    <g id="Oval-15">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <circle stroke="#E0E1E5" stroke-width="2" cx="123.926902" cy="53.4065864" r="13"></circle>
+                    </g>
+                    <g id="Combined-Shape">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                        <path stroke="#E0E1E5" stroke-width="2" d="M104.127586,94.5349321 C103.994255,93.5046811 103.926902,92.4601276 103.926902,91.4065864 C103.926902,79.2774063 112.857644,69.4065864 123.926902,69.4065864 C134.996161,69.4065864 143.926902,79.2774063 143.926902,91.4065864 C143.926902,92.4601276 143.85955,93.5046811 143.726219,94.5349321 L143.613413,95.4065864 L104.240392,95.4065864 L104.127586,94.5349321 Z"></path>
+                    </g>
+                    <g id="Group-19" transform="translate(132.926902, 80.406586)">
+                        <g id="Oval-12">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                            <circle stroke="#E0E1E5" stroke-width="2" cx="12" cy="12" r="13"></circle>
+                        </g>
+                        <rect id="Rectangle-22" fill="#E0E1E5" x="11" y="6" width="2" height="12" rx="1"></rect>
+                        <rect id="Rectangle-22" fill="#E0E1E5" transform="translate(12.000000, 12.000000) rotate(90.000000) translate(-12.000000, -12.000000) " x="11" y="6" width="2" height="12" rx="1"></rect>
+                    </g>
+                    <g id="Group-5" transform="translate(88.926902, 64.406586)" fill="#E0E1E5">
+                        <rect id="Rectangle-17" x="0" y="3" width="8" height="2" rx="1"></rect>
+                        <rect id="Rectangle-17" transform="translate(4.000000, 4.000000) rotate(90.000000) translate(-4.000000, -4.000000) " x="0" y="3" width="8" height="2" rx="1"></rect>
+                    </g>
+                    <g id="Group-5" transform="translate(151.926902, 34.406586)" fill="#E0E1E5">
+                        <rect id="Rectangle-17" x="0" y="3" width="8" height="2" rx="1"></rect>
+                        <rect id="Rectangle-17" transform="translate(4.000000, 4.000000) rotate(90.000000) translate(-4.000000, -4.000000) " x="0" y="3" width="8" height="2" rx="1"></rect>
+                    </g>
+                    <path d="M150.926902,90.6565864 C150.926902,83.1993946 158.276902,74.4065864 164.926902,74.4065864" id="Path-8" stroke="#E0E1E5" stroke-width="2" opacity="0.5" stroke-linecap="round" transform="translate(157.926902, 82.531586) scale(-1, 1) translate(-157.926902, -82.531586) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

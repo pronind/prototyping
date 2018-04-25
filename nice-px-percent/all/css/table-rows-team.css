@@ -1,0 +1,84 @@
+.top-headers-head-team {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--gray-100);
+    width: 30%;
+    min-width: 200px;
+    max-width: 400px;
+    float: left;
+}
+
+.top-headers-date-team {
+    font-size: 11px;
+    color: var(--gray-35);
+    width: 50px;
+    display: flex;
+    text-align: right;
+    margin-right: 32px;
+    float: left;
+    margin-top: 2px;
+}
+
+.top-headers-header3-team {
+    width: 7%;
+    float: left;
+    margin-top: 2px;
+    text-align: right;
+}
+
+.top-headers-header4-team {
+    width: 7%;
+    float: left;
+    margin-top: 2px;
+    text-align: right;
+}
+
+.top-headers-header5-team {
+    width: 7%;
+float: left;
+	margin-top: 2px;
+}
+
+.top-headers__last-headers {
+    width: 20%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.user-ava-name-text-team {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    min-width: 200px;
+    max-width: 400px;
+    float: left;
+}
+
+.user-date-team {
+    width: 50px;
+    font-size: 11px;
+    color: var(--gray-40);
+    margin-top: 2px;
+    margin-right: 32px;
+    text-align: right;
+    float: left;
+}
+
+.user-list__table3-team {
+    width: 15%;
+    text-align: right;
+    float: left;
+}
+
+.user-list__table4-team {
+    width: 15%;
+    text-align: right;
+    margin-right: 8%;
+    float: left;
+}
+
+.user-list__table5-team {
+    width: 7%;
+	 float: left;
+}

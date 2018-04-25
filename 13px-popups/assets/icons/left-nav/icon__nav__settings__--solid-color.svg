@@ -1,42 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
-  <defs>
-    <path id="icon__nav__settings__--solid-color-a" d="M11,0 L17,0 C17.5522847,-1.01453063e-16 18,0.44771525 18,1 C18,1.55228475 17.5522847,2 17,2 L11,2 C10.4477153,2 10,1.55228475 10,1 C10,0.44771525 10.4477153,1.01453063e-16 11,0 Z M1,0 L4,0 C4.55228475,-1.01453063e-16 5,0.44771525 5,1 C5,1.55228475 4.55228475,2 4,2 L1,2 C0.44771525,2 6.76353751e-17,1.55228475 0,1 C-6.76353751e-17,0.44771525 0.44771525,1.01453063e-16 1,0 Z M14,9 L17,9 C17.5522847,9 18,9.44771525 18,10 C18,10.5522847 17.5522847,11 17,11 L14,11 C13.4477153,11 13,10.5522847 13,10 C13,9.44771525 13.4477153,9 14,9 Z M1,9 L8,9 C8.55228475,9 9,9.44771525 9,10 C9,10.5522847 8.55228475,11 8,11 L1,11 C0.44771525,11 6.76353751e-17,10.5522847 0,10 C-6.76353751e-17,9.44771525 0.44771525,9 1,9 Z"/>
-    <path id="icon__nav__settings__--solid-color-c" d="M3.5,5.5 C4.32842712,5.5 5,4.82842712 5,4 C5,3.17157288 4.32842712,2.5 3.5,2.5 C2.67157288,2.5 2,3.17157288 2,4 C2,4.82842712 2.67157288,5.5 3.5,5.5 Z M3.5,7.5 C1.56700338,7.5 0,5.93299662 0,4 C0,2.06700338 1.56700338,0.5 3.5,0.5 C5.43299662,0.5 7,2.06700338 7,4 C7,5.93299662 5.43299662,7.5 3.5,7.5 Z"/>
-    <path id="icon__nav__settings__--solid-color-e" d="M3.5,5.5 C4.32842712,5.5 5,4.82842712 5,4 C5,3.17157288 4.32842712,2.5 3.5,2.5 C2.67157288,2.5 2,3.17157288 2,4 C2,4.82842712 2.67157288,5.5 3.5,5.5 Z M3.5,7.5 C1.56700338,7.5 0,5.93299662 0,4 C0,2.06700338 1.56700338,0.5 3.5,0.5 C5.43299662,0.5 7,2.06700338 7,4 C7,5.93299662 5.43299662,7.5 3.5,7.5 Z"/>
-  </defs>
-  <g fill="none" fill-rule="evenodd">
-    <rect width="24" height="24"/>
-    <g>
-      <rect width="24" height="24"/>
-      <g transform="translate(3 4)">
-        <g transform="translate(0 3)">
-          <mask id="icon__nav__settings__--solid-color-b" fill="#fff">
-            <use xlink:href="#icon__nav__settings__--solid-color-a"/>
-          </mask>
-          <use fill="#9DA0AA" xlink:href="#icon__nav__settings__--solid-color-a"/>
-          <g fill="#747989" mask="url(#icon__nav__settings__--solid-color-b)">
-            <rect width="80" height="80" transform="translate(-31 -35)"/>
-          </g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>icon__nav__settings__--solid-color</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="🔷/styleguide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="styleguide" transform="translate(-112.000000, -2323.000000)">
+            <g id="Group-3" transform="translate(112.000000, 1947.000000)">
+                <g id="icon/nav/settings/--solid-color" transform="translate(0.000000, 376.000000)">
+                    <g id="bg/spec">
+                        <rect id="bg" x="0" y="0" width="24" height="24"></rect>
+                    </g>
+                    <g id="icon/nav/settings/--solid-grey" stroke-width="1" fill-rule="evenodd">
+                        <g id="bg/spec">
+                            <rect id="bg" x="0" y="0" width="24" height="24"></rect>
+                        </g>
+                        <g id="icon/nav/settings" transform="translate(3.000000, 4.000000)" fill="#747989">
+                            <path d="M11,3 L17,3 C17.5522847,3 18,3.44771525 18,4 C18,4.55228475 17.5522847,5 17,5 L11,5 C10.4477153,5 10,4.55228475 10,4 C10,3.44771525 10.4477153,3 11,3 Z M1,3 L4,3 C4.55228475,3 5,3.44771525 5,4 C5,4.55228475 4.55228475,5 4,5 L1,5 C0.44771525,5 6.76353751e-17,4.55228475 0,4 C-6.76353751e-17,3.44771525 0.44771525,3 1,3 Z M14,12 L17,12 C17.5522847,12 18,12.4477153 18,13 C18,13.5522847 17.5522847,14 17,14 L14,14 C13.4477153,14 13,13.5522847 13,13 C13,12.4477153 13.4477153,12 14,12 Z M1,12 L8,12 C8.55228475,12 9,12.4477153 9,13 C9,13.5522847 8.55228475,14 8,14 L1,14 C0.44771525,14 6.76353751e-17,13.5522847 0,13 C-6.76353751e-17,12.4477153 0.44771525,12 1,12 Z" id="Mask"></path>
+                            <path d="M11.5,14.5 C12.3284271,14.5 13,13.8284271 13,13 C13,12.1715729 12.3284271,11.5 11.5,11.5 C10.6715729,11.5 10,12.1715729 10,13 C10,13.8284271 10.6715729,14.5 11.5,14.5 Z M11.5,16.5 C9.56700338,16.5 8,14.9329966 8,13 C8,11.0670034 9.56700338,9.5 11.5,9.5 C13.4329966,9.5 15,11.0670034 15,13 C15,14.9329966 13.4329966,16.5 11.5,16.5 Z" id="Mask" fill-rule="nonzero"></path>
+                            <path d="M7.5,5.5 C8.32842712,5.5 9,4.82842712 9,4 C9,3.17157288 8.32842712,2.5 7.5,2.5 C6.67157288,2.5 6,3.17157288 6,4 C6,4.82842712 6.67157288,5.5 7.5,5.5 Z M7.5,7.5 C5.56700338,7.5 4,5.93299662 4,4 C4,2.06700338 5.56700338,0.5 7.5,0.5 C9.43299662,0.5 11,2.06700338 11,4 C11,5.93299662 9.43299662,7.5 7.5,7.5 Z" id="Mask" fill-rule="nonzero"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
         </g>
-        <g transform="translate(8 9)">
-          <mask id="icon__nav__settings__--solid-color-d" fill="#fff">
-            <use xlink:href="#icon__nav__settings__--solid-color-c"/>
-          </mask>
-          <use fill="#9DA0AA" fill-rule="nonzero" xlink:href="#icon__nav__settings__--solid-color-c"/>
-          <g fill="#747989" mask="url(#icon__nav__settings__--solid-color-d)">
-            <rect width="80" height="80" transform="translate(-39 -41)"/>
-          </g>
-        </g>
-        <g transform="translate(4)">
-          <mask id="icon__nav__settings__--solid-color-f" fill="#fff">
-            <use xlink:href="#icon__nav__settings__--solid-color-e"/>
-          </mask>
-          <use fill="#9DA0AA" fill-rule="nonzero" xlink:href="#icon__nav__settings__--solid-color-e"/>
-          <g fill="#747989" mask="url(#icon__nav__settings__--solid-color-f)">
-            <rect width="80" height="80" transform="translate(-35 -32)"/>
-          </g>
-        </g>
-      </g>
     </g>
-  </g>
 </svg>

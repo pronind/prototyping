@@ -1,0 +1,109 @@
+.top-headers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 12px 12px 12px;
+    height: 24px;
+}
+
+.top-headers>div:not(:first-child) {
+    font-size: 11px;
+    color: var(--gray-35);
+}
+
+
+.top-headers-head {
+    display: flex;
+    align-items: flex-end;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--gray-100);
+    width: 30%;
+    min-width: 200px;
+    max-width: 400px;
+}
+
+.top-headers-head-date {
+    width: 35%;
+    min-width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.user-date {
+    width: 50px;
+    font-size: 11px;
+    color: var(--gray-40);
+    margin-top: 2px;
+    margin-right: 32px;
+    text-align: right;
+}
+
+
+.user-text {
+    font-size: 13px;
+    line-height: 18px;
+    color: var(--gray-55);
+    /*  padding-top: 3px;*/
+    text-overflow: ellipsis;
+    min-width: 150px;
+    max-height: 36px;
+    overflow: hidden;
+}
+
+
+.top-headers__last-headers {
+    width: 20%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+
+.top-headers__header3 {
+    width: 15%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.top-headers__header4 {
+    width: 15%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+    margin-right: 8%;
+}
+
+.top-headers__header5 {
+    width: 15%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.user-list__table3 {
+    width: 15%;
+    text-align: right;
+}
+
+.user-list__table4 {
+    width: 15%;
+    text-align: right;
+    margin-right: 8%;
+}
+
+.user-list__table5 {
+    width: 15%;
+}
+
+.user-ava-name-text {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    min-width: 200px;
+    max-width: 400px;
+}

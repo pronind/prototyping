@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*   COLORS =========================================================*/
+
+:root {
+    --gray-100: #191d2e;
+    --gray-90: #24293e;
+    --gray-80: #2d3248;
+    --gray-75: #464a5d;
+    --gray-70: #4a4e61;
+    --gray-65: #585c6e;
+    --gray-60: #656979;
+    --gray-55: #747989;
+    --gray-50: #808493;
+    --gray-45: #8e919d;
+    --gray-40: #9da0aa;
+    --gray-35: #a9abb5;
+    --gray-30: #b4b6be;
+    --gray-25: #c2c3ca;
+    --gray-20: #e0e1e5;
+    --gray-15: #eaebed;
+    --gray-10: #f3f4f5;
+    --gray-5: #fafafb;
+    --gray-0: #ffffff;
+    --n900: #111c39;
+    --n800: #1f2846;
+    --n700: #2e3554;
+    --n600: #3c4261;
+    --n500: #4a4f6c;
+    --n400: #575c77;
+    --n300: #646982;
+    --n200: #72778e;
+    --n100: #7f8398;
+    --n90: #8e91a3;
+    --n80: #9c9eae;
+    --n70: #a9abb9;
+    --n60: #b6b8c4;
+    --n50: #c4c6cf;
+    --n40: #e0e0e5;
+    --n30: #ebecef;
+    --n20: #f4f5f7;
+    --n10: #fafbfc;
+    --n0: #fff;
+    --g500: #00621d;
+    --g400: #008227;
+    --g300: #34ac4d;
+    --g200: #54d070;
+    --g100: #74e98d;
+    --g75: #a4ebaf;
+    --g50: #daf2dd;
+    --p500: #9c9eae;
+    --p400: #a9abb9;
+    --p300: #b6b8c4;
+    --p200: #c4c6cf;
+    --p100: #e0e0e5;
+    --p75: #ebecef;
+    --p50: #f4f5f7;
+    --text-dark: var(--gray-100);
+    --text-normal: var(--gray-80);
+    --text-light: var(--gray-55);
+    --text-disabled: var(--gray-35);
+    --borders-color: var(--gray-30);
+}
+

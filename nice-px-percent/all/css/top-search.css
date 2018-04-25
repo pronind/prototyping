@@ -1,0 +1,30 @@
+.top-search-icon {
+    background-image: url(../assets/icons/search.svg);
+    background-position: -3px 0px;
+    height: 24px;
+    width: 24px;
+}
+
+.top-search {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 12px 16px 12px;
+    justify-content: space-between
+}
+
+.top-search-iconblock {
+    display: flex;
+    flex-direction: row;
+}
+
+.top-search-block {
+    display: flex;
+    flex-direction: row;
+}
+
+.top-search-text {
+    color: var(--gray-35);
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+}
