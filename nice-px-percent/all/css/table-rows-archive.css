@@ -5,37 +5,40 @@
     width: 30%;
     min-width: 200px;
     max-width: 400px;
-    float: left;
+	position: absolute;
 }
 
 .top-headers-date-archive {
     font-size: 11px;
     color: var(--gray-35);
     width: 50px;
-    display: flex;
     text-align: right;
-    margin-right: 32px;
-    float: left;
+  
+ position: absolute;
+	left: 30%;
     margin-top: 2px;
 }
 
 .top-headers-header3-archive {
     width: 15%;
-    float: left;
+    position: absolute;
+	left: 35%;
     margin-top: 2px;
     text-align: right;
 }
 
 .top-headers-header4-archive {
     width: 15%;
-    float: left;
+    position: absolute;
+	left: 49%;
     margin-top: 2px;
     text-align: right;
 }
 
 .top-headers-header5-archive {
     width: 15%;
- float: left;
+	position: absolute;
+	left: 72%;
 	margin-top: 2px;
 }
 
@@ -52,7 +55,7 @@
     width: 30%;
     min-width: 200px;
     max-width: 400px;
-    float: left;
+    position: absolute;
 }
 
 .user-date-archive {
@@ -60,25 +63,27 @@
     font-size: 11px;
     color: var(--gray-40);
     margin-top: 2px;
-    margin-right: 32px;
-    text-align: right;
-    float: left;
+     text-align: right;
+position: absolute;
+	left:30%;
 }
 
 .user-list__table3-archive {
     width: 15%;
     text-align: right;
-    float: left;
+    position: absolute;
+	left: 35%
 }
 
 .user-list__table4-archive {
     width: 15%;
     text-align: right;
-    margin-right: 8%;
-    float: left;
+position: absolute;
+	left: 49%
 }
 
 .user-list__table5-archive {
     width: 15%;
-	float: left
+	position: absolute;
+	left: 72%;
 }

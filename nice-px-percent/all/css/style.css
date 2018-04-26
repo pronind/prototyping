@@ -59,7 +59,7 @@ a.text:hover {
 }
 
 .user-list {
-    width: 100%;
+/*    width: 100%;*/
     margin: 0 0 0 0;
     height: 52px;
     padding: 12px;
@@ -68,6 +68,8 @@ a.text:hover {
 .user-list:hover {
     background-color: var(--gray-10);
 }
+
+
 
 .user-name-text {
     flex-grow: 2;
