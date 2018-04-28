@@ -15,7 +15,7 @@
   
     text-align: right;
 position: absolute;
-	left: 33%;
+	left: 37%;
    
     margin-top: 2px;
 }
@@ -23,23 +23,23 @@ position: absolute;
 .top-headers-header3-team {
     width: 7%;
     position: absolute;
-	left:40%;
+	left:46%;
     margin-top: 2px;
-    text-align: right;
+   
 }
 
 .top-headers-header4-team {
     width: 7%;
    position: absolute;
-	left: 50%;
+	left: 60%;
     margin-top: 2px;
-    text-align: right;
+  
 }
 
 .top-headers-header5-team {
     width: 7%;
 position: absolute;
-	left: 62%;
+	left: 70%;
 	margin-top: 2px;
 }
 
@@ -68,27 +68,27 @@ position: absolute;
     margin-right: 32px;
     text-align: right;
  position: absolute;
-	left: 32%;
+	left: 37%;
 }
 
 .user-list__table3-team {
     width: 15%;
-    text-align: right;
+
     position: absolute;
-	left: 33%;
+	left: 46%;
 }
 
 .user-list__table4-team {
     width: 15%;
     text-align: right;
  position: absolute;
-	left: 40%;
+	left: 46%;
 }
 
 .user-list__table5-team {
     width: 7%;
 	 position: absolute;
-	left: 62%;
+	left: 70%;
 }
 .team-settings-icon {
 	width: 24px;
@@ -108,7 +108,7 @@ position: absolute;
 .user-list__table6-team {
 	    width: 7%;
 	 position: absolute;
-	left: 70%;
+	left: 80%;
 }
 
 .user-list__table8-team {
@@ -120,7 +120,7 @@ position: absolute;
 .user-list__table7-team {
 	    width: 7%;
 	 position: absolute;
-	left: 80%;
+	left: 90%;
 }
 
 .top-headers-header8-team {
@@ -131,12 +131,12 @@ position: absolute;
 
 .top-headers-header7-team {
 	position: absolute;
-	left: 80%;
+	left: 90%;
 	margin-top: 2px;
 }
 
 .top-headers-header6-team {
 	position: absolute;
-	left: 70%;
+	left: 80%;
 	margin-top: 2px;
 }

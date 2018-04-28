@@ -3,7 +3,7 @@
     font-size: 18px;
     font-weight: 500;
     color: var(--gray-100);
-    width: 35%;
+    width: 43%;
     min-width: 200px;
     max-width: 500px;
 	position: absolute;
@@ -17,7 +17,7 @@
     text-align: right;
     margin-right: 32px;
 	position: absolute;
-	left:46%;
+	left:52%;
 	margin-top: 2px;
 }
 
@@ -32,7 +32,7 @@ position: absolute;
 .top-headers-header4-inbox {
     width: 15%;
  	position: absolute;
-	left: 68%;
+	left: 72%;
 	margin-top: 2px;
   
 
@@ -58,7 +58,7 @@ position: absolute;
 .user-ava-name-text-inbox {
     display: flex;
     justify-content: space-between;
-    width: 35%;
+    width: 43%;
     min-width: 200px;
     max-width: 500px;
 	float: left;
@@ -70,7 +70,7 @@ position: absolute;
     margin-top: 2px;
     margin-right: 32px;
 	position: absolute;
-	left: 46%;
+	left: 52%;
 /*    text-align: right;*/
 
 }
@@ -86,7 +86,7 @@ position: absolute;
     width: 15%;
 
 position: absolute;
-	left: 68%;
+	left: 72%;
 }
 
 .user-list__table5-inbox {

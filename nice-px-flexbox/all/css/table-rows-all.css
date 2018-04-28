@@ -103,7 +103,7 @@
 .user-ava-name-text {
     display: flex;
     justify-content: space-between;
-    width: 30%;
+    width: 40%;
     min-width: 200px;
-    max-width: 400px;
+    max-width: 500px;
 }

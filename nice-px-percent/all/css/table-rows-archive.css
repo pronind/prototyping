@@ -15,7 +15,7 @@
     text-align: right;
   
  position: absolute;
-	left: 30%;
+	left: 33%;
     margin-top: 2px;
 }
 
@@ -38,7 +38,7 @@
 .top-headers-header5-archive {
     width: 15%;
 	position: absolute;
-	left: 72%;
+	left: 80%;
 	margin-top: 2px;
 }
 
@@ -62,10 +62,10 @@
     width: 50px;
     font-size: 11px;
     color: var(--gray-40);
-    margin-top: 2px;
+    margin-top: 1px;
      text-align: right;
 position: absolute;
-	left:30%;
+	left:33%;
 }
 
 .user-list__table3-archive {
@@ -85,5 +85,5 @@ position: absolute;
 .user-list__table5-archive {
     width: 15%;
 	position: absolute;
-	left: 72%;
+	left: 80%;
 }
