@@ -19,7 +19,7 @@ body {
     font-family: Roboto, Segoe UI, Tahoma, Roboto;
     font-size: 13px;
     background-color: var(--gray-0);
-    color: var(--gray-80);
+    color: var(--gray-75);
     line-height: 19.6px;
     -webkit-font-smoothing: antialiased;
 }
@@ -114,7 +114,7 @@ a.text:hover {
 
 .user-name {
     font-size: 14px;
-    color: var(--gray-90);
+    color: var(--gray-100);
     text-overflow: ellipsis;
     /*	margin-top: 2px;*/
 }
@@ -175,10 +175,36 @@ a.text:hover {
   animation: fade-in 1.5s ease;
 }
 */
-.user-list{
+/* .user-list{
 	animation: fade-in 0.3s ease;
-}
-
+} */
+/* 
 .user-ava-name-text-inbox{
 		animation: fade-in 0.3s ease;
+} */
+
+
+.user-ava {
+    animation: fade-in 0.3s ease;
+}
+.user-name-text{
+    animation: fade-in 0.3s ease; 
+}
+
+.user-ava-online-status {
+	 border-radius: 8px;
+    background-color: var(--green-40);
+    min-width: 8px;
+    height: 8px;
+    display: inline-flex;
+    padding-left: 0px;
+    padding-right: 0px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 27px;
+    top: 0px;
+    color: white;
+  
+    border: 2px solid var(--gray-0);
 }

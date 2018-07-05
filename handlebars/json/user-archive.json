@@ -1,12 +1,17 @@
 {
-   "users-archive" : {
-      "user1" : {
-         "ava" : "? ? ????????? ???, ?? ????? ????????",
-         "name" : "���� ������",
-         "<add name>" : "dd"
-      },
-      "<add name>" : {
-         "<add name>" : "dd"
-      }
-   }
+  "number" : 123,
+  "boolean" : "Пробуем написать текст",
+  "null" : null,
+  "object" : {
+    "e" : "f",
+    "New Item" : "",
+    "a" : "b",
+    "c" : "d"
+  },
+  "array" : [
+    1,
+    2,
+    3
+  ],
+  "string" : "Hello World"
 }

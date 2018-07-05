@@ -10,12 +10,12 @@
 
 .top-headers-date-team {
     font-size: 11px;
-    color: var(--gray-35);
+    color: var(--gray-55);
     width: 50px;
   
     text-align: right;
 position: absolute;
-	left: 37%;
+	left: 35%;
    
     margin-top: 2px;
 }
@@ -23,24 +23,26 @@ position: absolute;
 .top-headers-header3-team {
     width: 7%;
     position: absolute;
-	left:46%;
+	left:43%;
     margin-top: 2px;
-   
+   color: var(--gray-55);
 }
 
 .top-headers-header4-team {
     width: 7%;
    position: absolute;
-	left: 60%;
+	left: 56%;
     margin-top: 2px;
+	color: var(--gray-55);
   
 }
 
 .top-headers-header5-team {
     width: 7%;
 position: absolute;
-	left: 70%;
+	left: 66%;
 	margin-top: 2px;
+	color: var(--gray-55);
 }
 
 .top-headers__last-headers {
@@ -63,80 +65,85 @@ position: absolute;
 .user-date-team {
     width: 50px;
     font-size: 11px;
-    color: var(--gray-40);
+    color: var(--gray-55);
     margin-top: 2px;
     margin-right: 32px;
     text-align: right;
  position: absolute;
-	left: 37%;
+	left: 34%;
 }
 
 .user-list__table3-team {
     width: 15%;
 
     position: absolute;
-	left: 46%;
+	left: 43%;
 }
 
 .user-list__table4-team {
     width: 15%;
-    text-align: right;
+    text-align: left;
  position: absolute;
-	left: 46%;
+	left: 56%;
 }
 
 .user-list__table5-team {
     width: 7%;
 	 position: absolute;
-	left: 70%;
+	left: 66%;
 }
 .team-settings-icon {
-	width: 24px;
-	height: 24px;
+	width: 20px;
+	height: 20px;
 	background-image: url(../assets/icon/settings/norm.svg);
 	visibility: hidden;
+	background-size: contain;
 }
 .user-list:hover>.user-list__table8-team>.team-settings-icon {
 	visibility: visible;
 }
 
 .team-settings-icon:hover {
-
+cursor: pointer;
 	background-image: url(../assets/icon/settings/hover.svg);
 }
 
 .user-list__table6-team {
 	    width: 7%;
 	 position: absolute;
-	left: 80%;
+	left: 76%;
 }
 
 .user-list__table8-team {
 	    width: 24px;
+	height: 24px;
 	 position: absolute;
-	left: 94%;
+	    right: 28px;
 }
 
 .user-list__table7-team {
 	    width: 7%;
 	 position: absolute;
-	left: 90%;
+	left: 86%;
 }
 
 .top-headers-header8-team {
 	width: 24px;
 	position: absolute;
 	left: 94%;
+	color: var(--gray-55);
 }
 
 .top-headers-header7-team {
 	position: absolute;
-	left: 90%;
+	left: 86%;
 	margin-top: 2px;
+	color: var(--gray-55);
 }
 
 .top-headers-header6-team {
 	position: absolute;
-	left: 80%;
+	left: 76%;
 	margin-top: 2px;
+	color: var(--gray-55);
 }

@@ -58,7 +58,7 @@
 .user-date-my {
     width: 50px;
     font-size: 11px;
-    color: var(--gray-40);
+    color: var(--gray-55);
     margin-top: 2px;
     margin-right: 32px;
 /*    text-align: right;*/
@@ -80,4 +80,8 @@
 
 .user-list__table5-my {
     width: 15%;
+}
+.my-no-last-words {
+	font-weight: 500;
+	color: var(--gray-100);
 }

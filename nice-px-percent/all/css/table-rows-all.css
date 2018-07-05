@@ -5,7 +5,7 @@
 
 .top-headers>div:not(:first-child) {
     font-size: 11px;
-    color: var(--gray-35);
+    color: var(--gray-55);
 }
 
 
@@ -42,7 +42,7 @@
 .user-text {
     font-size: 13px;
     line-height: 18px;
-    color: var(--gray-55);
+    color: var(--gray-75);
     /*  padding-top: 3px;*/
     text-overflow: ellipsis;
     min-width: 150px;
